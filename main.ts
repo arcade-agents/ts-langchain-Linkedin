@@ -41,8 +41,6 @@ const tools = await getTools({
   limit: toolLimit,
 });
 
-
-
 async function handleInterrupt(
   interrupt: Interrupt,
   rl: readline.Interface
